@@ -6,13 +6,9 @@ division_template = {
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-        infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-        infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
+		infantry = { x = 1 y = 0 }
+        infantry = { x = 1 y = 1 }
+
 	}
 	
 }
@@ -25,12 +21,8 @@ division_template = {
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
-		cavalry = { x = 0 y = 2 }
-		cavalry = { x = 0 y = 3 }
 		cavalry = { x = 1 y = 0 }
-		cavalry = { x = 1 y = 1 }
-		cavalry = { x = 1 y = 2 }
-		cavalry = { x = 1 y = 3 }
+
 	}
 }
 
@@ -49,24 +41,6 @@ division= {
 		division_template = "Javshanteknika"
 		start_experience_factor = 0.2
 	}	
-division= {	
-		name = "1 Kveiti polki"
-		location = 1599
-		division_template = "Kveiti polki"
-		start_experience_factor = 0.3
-	}	
-division= {	
-		name = "1 Kveiti polki"
-		location = 1599
-		division_template = "Kveiti polki"
-		start_experience_factor = 0.3
-	}	
-division= {	
-		name = "1 Kveiti polki"
-		location = 1599
-		division_template = "Kveiti polki"
-		start_experience_factor = 0.3
-	}	
 
 #Other place 1		
 division= {	
@@ -81,49 +55,11 @@ division= {
 		division_template = "Kveiti polki"
 		start_experience_factor = 0.3
 	}	
-division= {	
-		name = "1 Kveiti polki"
-		location = 9702
-		division_template = "Kveiti polki"
-		start_experience_factor = 0.3
-	}	
 
 #Other place 2			
 division= {	
 		name = "2 Kveiti polki"
 		location = 6669
-		division_template = "Kveiti polki"
-		start_experience_factor = 0.3
-	}
-division= {	
-		name = "2 Kveiti polki"
-		location = 6669
-		division_template = "Kveiti polki"
-		start_experience_factor = 0.3
-	}
-division= {	
-		name = "2 Kveiti polki"
-		location = 6669
-		division_template = "Kveiti polki"
-		start_experience_factor = 0.3
-	}
-
-#Other place 3			
-division= {	
-		name = "3 Kveiti polki"
-		location = 4605
-		division_template = "Kveiti polki"
-		start_experience_factor = 0.3
-	}
-division= {	
-		name = "3 Kveiti polki"
-		location = 4605
-		division_template = "Kveiti polki"
-		start_experience_factor = 0.3
-	}
-division= {	
-		name = "3 Kveiti polki"
-		location = 4605
 		division_template = "Kveiti polki"
 		start_experience_factor = 0.3
 	}
@@ -140,39 +76,6 @@ division= {
 		location = 4534
 		division_template = "Kveiti polki"
 		start_experience_factor = 0.3
-	}	
-division= {	
-		name = "4 Kveiti polki"
-		location = 4534
-		division_template = "Kveiti polki"
-		start_experience_factor = 0.3
-	}	
-
-#Other place 5			
-division= {	
-		name = "5 Kveiti polki"
-		location = 9626
-		division_template = "Kveiti polki"
-		start_experience_factor = 0.3
-	}	
-division= {	
-		name = "5 Kveiti polki"
-		location = 9626
-		division_template = "Kveiti polki"
-		start_experience_factor = 0.3
-	}	
-
-#Other place 6		
-division= {	
-		name = "6 Kveiti polki"
-		location = 6436
-		division_template = "Kveiti polki"
-		start_experience_factor = 0.3
-	}	
-division= {	
-		name = "6 Kveiti polki"
-		location = 6436
-		division_template = "Kveiti polki"
-		start_experience_factor = 0.3
-	}						
+	}		
+						
 }

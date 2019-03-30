@@ -8,6 +8,7 @@ state={
 
 	history={
 		owner = GEO
+		add_core_of = GEO
 		victory_points = {
 			1599 15 
 		}
@@ -16,14 +17,8 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 2
-			air_base = 3
-			3653 = {
-				naval_base = 2
-				coastal_bunker = 1
-
-			}
-
+			industrial_complex = 3
+			arms_factory = 2
 		}
 		add_core_of = SOV
 		1939.1.1 = {
@@ -39,7 +34,7 @@ state={
 	provinces={
 		654 672 772 1530 1599 3653 3656 3658 4534 6436 6669 6671 9626 9702 11599 11617
 	}
-	manpower=2949413
+	manpower=20949413
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=metropolis
 }

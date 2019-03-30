@@ -4,13 +4,15 @@ state={
 
 	history={
 		owner = GEO
-                add_core_of = AZR
+        add_core_of = AZR
+        add_core_of = GEO
 		victory_points = {
 			4605 5
 		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
+			arms_factory = 2
 
 		}
 		1939.1.1 = {
@@ -26,7 +28,7 @@ state={
 	provinces={
 		12309 4605 
 	}
-	manpower=1245914
+	manpower=4945914
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=metropolis
 }

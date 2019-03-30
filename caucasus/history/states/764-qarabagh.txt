@@ -8,13 +8,14 @@ state={
 
 	history={
 		owner = AZR
-
+        add_core_of = AZR
 		victory_points = {
 			9715 10
 		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
+			arms_factory = 2
 
 		}
 		1939.1.1 = {
@@ -30,7 +31,7 @@ state={
 	provinces={
 		9715 1467 
 	}
-	manpower=4245314
+	manpower=7945314
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=metropolis
 }

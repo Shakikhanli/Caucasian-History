@@ -7,14 +7,15 @@ state={
 	}
 	history={
 		owner = ARM
-                add_core_of = SOV
+        add_core_of = ARM
+		
 		victory_points = {
 			12320 25 
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			industrial_complex = 2
-			air_base = 2
+			arms_factory = 2
 
 		}
 		1939.1.1 = {
@@ -30,7 +31,7 @@ state={
 	provinces={
 		3564 11708 12320 12380 12441 12450 13123 6642
 	}
-	manpower=1250082
+	manpower=21250082
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=metropolis
 }

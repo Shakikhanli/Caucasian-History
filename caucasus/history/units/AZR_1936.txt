@@ -10,9 +10,6 @@ division_template = {
         infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
-        infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
 	}
 	
 }
@@ -27,22 +24,12 @@ division_template = {
 		cavalry = { x = 0 y = 1 }
 		cavalry = { x = 0 y = 2 }
 		cavalry = { x = 0 y = 3 }
-		cavalry = { x = 1 y = 0 }
-		cavalry = { x = 1 y = 1 }
-		cavalry = { x = 1 y = 2 }
-		cavalry = { x = 1 y = 3 }
 	}
 }
 
 units {
 
 #Baku divisions
-division= {	
-		name = "Baki süvari alayi"
-		location = 7661
-		division_template = "Süvari Alayi"
-		start_experience_factor = 0.7
-	}
 division= {	
 		name = "Baki süvari alayi"
 		location = 7661
@@ -75,26 +62,8 @@ division= {
 		division_template = "Piyada Alayi"
 		start_experience_factor = 0.3
 	}
-division= {	
-		name = "2ci Piyada batalyonu"
-		location = 4545
-		division_template = "Piyada Alayi"
-		start_experience_factor = 0.3
-	}
 
 #Divisions in Nakhchivan			
-division= {	
-		name = "Nakhchivan batalyonu"
-		location = 6997
-		division_template = "Piyada Alayi"
-		start_experience_factor = 0.3
-	}
-division= {	
-		name = "Nakhchivan batalyonu"
-		location = 6997
-		division_template = "Piyada Alayi"
-		start_experience_factor = 0.3
-	}
 division= {	
 		name = "Nakhchivan batalyonu"
 		location = 6997
@@ -128,18 +97,6 @@ division= {
 		start_experience_factor = 0.7
 	}
 division= {	
-		name = "Qarabagh batalyonu"
-		location = 9715
-		division_template = "Piyada Alayi"
-		start_experience_factor = 0.7
-	}
-division= {	
-		name = "Qarabagh batalyonu"
-		location = 9715
-		division_template = "Piyada Alayi"
-		start_experience_factor = 0.7
-	}
-division= {	
 		name = "Qarabagh süvari alayi"
 		location = 9715
 		division_template = "Süvari Alayi"
@@ -159,20 +116,9 @@ division= {
 		division_template = "Piyada Alayi"
 		start_experience_factor = 0.3
 	}
-division= {	
-		name = "4ci Piyada batalyonu"
-		location = 4473
-		division_template = "Piyada Alayi"
-		start_experience_factor = 0.3
-	}
+
 
 #Other place 5			
-division= {	
-		name = "8ci Piyada batalyonu"
-		location = 1467
-		division_template = "Piyada Alayi"
-		start_experience_factor = 0.3
-	}	
 division= {	
 		name = "8ci Piyada batalyonu"
 		location = 1467
@@ -192,17 +138,5 @@ division= {
 		location = 1539
 		division_template = "Piyada Alayi"
 		start_experience_factor = 0.3
-	}		
-division= {	
-		name = "7ci Piyada batalyonu"
-		location = 1539
-		division_template = "Piyada Alayi"
-		start_experience_factor = 0.3
-	}	
-division= {	
-		name = "7ci Piyada batalyonu"
-		location = 1539
-		division_template = "Piyada Alayi"
-		start_experience_factor = 0.3
-	}			
+	}				
 }
