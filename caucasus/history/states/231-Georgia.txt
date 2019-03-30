@@ -1,14 +1,18 @@
 state={
 	id=231
 	name="STATE_231"
+        resources={
+		steel=25 
+                wolfram=10
+	}
 
 	history={
 		owner = GEO
 		victory_points = {
-			1599 5 
+			1599 15 
 		}
 		victory_points = {
-			3653 3 
+			3653 7 
 		}
 		buildings = {
 			infrastructure = 3
@@ -22,7 +26,6 @@ state={
 
 		}
 		add_core_of = SOV
-		add_core_of = GEO
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 3

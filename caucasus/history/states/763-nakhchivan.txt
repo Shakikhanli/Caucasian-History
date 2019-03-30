@@ -1,12 +1,14 @@
 state={
 	id=763
 	name="Nakhchivan"
-
+        resources={
+		aluminium=5
+	}
 	history={
 		owner = AZR
 
 		victory_points = {
-			6642 5
+			6997 5
 		}
 		buildings = {
 			infrastructure = 3
@@ -24,9 +26,9 @@ state={
 	}
 
 	provinces={
-		4660 6997 6642 
+		4660 6997 
 	}
 	manpower=2949413
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=city
 }
