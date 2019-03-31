@@ -35,3 +35,114 @@ set_politics = {
 }
 
 set_convoys = 5
+
+leo_kereselidze      facist
+nikolay_chkhekizade  socialist
+nikolay_tcheidze
+kote_andronikashvili  democratic
+
+
+
+create_country_leader = {
+	name = "Kote Andronikashvili "
+	desc = ""
+	picture = "kote_andronikashvili.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Nikolay Chkhekizade"
+	desc = ""
+	picture = "nikolay_chkhekizade.dds"
+	expire = "1965.1.1"
+	ideology = stalinism
+	traits = {
+        stalins_puppet
+	}
+}
+
+create_country_leader = {
+	name = "Leo Kereselidze "
+	desc = ""
+	picture = "leo_kereselidze.dds"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+        anti_democrat
+	}
+}
+
+create_country_leader = {
+	name = "Nikolay Tcheidze"
+	desc = ""
+	picture = "nikolay_tcheidze.dds"
+	expire = "1965.1.1"
+	ideology = centrism
+	traits = {
+	}
+}
+
+create_field_marshal = {
+	name = "Giorgi Mazniashvili"
+	picture = "giorgi_mazniashvili"
+	traits = { war_hero old_guard }
+	skill = 3
+	attack_skill = 3
+    defense_skill = 3
+    planning_skill = 1 
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Giorgi Kvinitadze"
+	picture = "giorgi_kvinitadze.dds"
+	traits = { media_personality }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Kakutsa Cholokashvili"
+	picture = "kakutsa_cholokashvili.dds"
+	traits = { cavalry_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Kote Abkhazi"
+	picture = "kote_abkhazi.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Vladimir Janjgava"
+	picture = "vladimir_janjgava.dds"
+	traits = { armor_officer }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_navy_leader = {
+	name = "Yaroslav Iosseliani"
+	picture = "yaroslav_iosseliani.dds"
+	traits = { submarine_specialist }
+	skill = 2
+}

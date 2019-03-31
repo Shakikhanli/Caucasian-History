@@ -43,7 +43,9 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
-
+        dealbroker
+        anti_communist
+        nationalist_symbol
 	}
 }
 
@@ -54,7 +56,8 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = stalinism
 	traits = {
-
+         stalins_puppet
+         hedonist
 	}
 }
 
@@ -65,7 +68,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = nazism
 	traits = {
-
+         anti_democrat
 	}
 }
 
@@ -76,7 +79,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = centrism
 	traits = {
-
+        victoria_iii
 	}
 }
 
@@ -94,7 +97,7 @@ create_field_marshal = {
 create_corps_commander = {
 	name = "Cahangir bey Kazimbeyli"
 	picture = "cahangir_bey_kazimbeyli.dds"
-	traits = { armor_officer }
+	traits = { armor_officer desert_fox }
 	skill = 3
 	attack_skill = 2
 	defense_skill = 2

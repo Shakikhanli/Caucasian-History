@@ -43,7 +43,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
-
+         warmonger
 	}
 }
 
@@ -54,7 +54,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = stalinism
 	traits = {
-
+        stalins_puppet
 	}
 }
 
@@ -65,7 +65,8 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = nazism
 	traits = {
-
+	    dictator
+        anti_democrat
 	}
 }
 
@@ -76,15 +77,11 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = centrism
 	traits = {
-
+        assassination_survivor
 	}
 }
 
-hovhannes_bagramyan lvl 3  (marshal)
-christofer_araratyan lvl 2
-hamazasp_babadzhanian lvl 1 
-hovhannes_hakhverdyan lvl 1
-drastamat_kanayan  lvl 2
+
 
 create_field_marshal = {
 	name = "Hovhannes Bagramyan"
