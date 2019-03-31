@@ -27,35 +27,151 @@ set_politics = {
 			popularity = 0
 		}
 	}
-	
+	# communism
+	# democratic
 	ruling_party = democratic
 	last_election = "1933.3.5"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
+}
+set_convoys = 25
+
+create_country_leader = {
+	name = "Memmed Emin Resulzade"
+	desc = ""
+	picture = "memmed_emin_resulzade.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+
+	}
 }
 
-set_convoys = 5
-
-#Victor Emmanuel III of Italy after 39
 create_country_leader = {
-	name = "King Zog"
-	desc = "POLITICS_KING_ZOG_DESC"
-	picture = "Portrait_Albania_King_Zog.dds"
+	name = "Aliheyder Qarayev"
+	desc = ""
+	picture = "aliheyder_qarayev.dds"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = stalinism
 	traits = {
-		#
+
+	}
+}
+
+create_country_leader = {
+	name = "Hemid bey Saxtaxtinski"
+	desc = ""
+	picture = "hemid_bey_saxtaxtinski.dds"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Feteli xan Xoyski"
+	desc = ""
+	picture = "feteli_xan_xoyski.dds"
+	expire = "1965.1.1"
+	ideology = centrism
+	traits = {
+
 	}
 }
 
 create_field_marshal = {
-	name = "Xhemal Aranitasi"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	traits = { }
-	skill = 2
-	attack_skill = 1
+	name = "Hebib bey Selimov"
+	picture = "hebib_bey_selimov.dds"
+	traits = { war_hero old_guard brilliant_strategist }
+	skill = 4
+	attack_skill = 4
     defense_skill = 3
     planning_skill = 2
-    logistics_skill = 1
+    logistics_skill = 2
 }
 
+create_corps_commander = {
+	name = "Cahangir bey Kazimbeyli"
+	picture = "cahangir_bey_kazimbeyli.dds"
+	traits = { armor_officer }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Xosrov bey Sultanov"
+	picture = "xosrov_bey_sultanov.dds"
+	traits = { brilliant_strategist cavalry_officer }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Qalib bey Vekilov"
+	picture = "qalib_bey_vekilov.dds"
+	traits = { media_personality }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Teymur bey Novruzov"
+	picture = "teymur_bey_novruzov.dds"
+	traits = { trickster trait_reckless war_hero armor_officer }
+	skill = 4
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Hezi Aslanov"
+	picture = "hezi_aslanov.dds"
+	traits = { brilliant_strategist trait_engineer panzer_leader }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Mirkazim xan Talislinski"
+	picture = "mirkazim_xan_talislinski.dds"
+	traits = { career_officer }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Ibrahim aga vekilov"
+	picture = "ibrahim_aga_vekilov.dds"
+	traits = { war_hero trait_cautious }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+
+create_navy_leader = {
+	name = "Celil Cavadov"
+	picture = "celil_cavadov.dds"
+	traits = { old_guard_navy seawolf }
+	skill = 3
+}

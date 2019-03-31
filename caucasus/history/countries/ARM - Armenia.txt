@@ -35,3 +35,108 @@ set_politics = {
 }
 
 set_convoys = 5
+
+create_country_leader = {
+	name = "Hovhannes Kajasnuni "
+	desc = ""
+	picture = "hovhannes_kajusnuni.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Simon Vratsian"
+	desc = ""
+	picture = "simon_vratsian.dds"
+	expire = "1965.1.1"
+	ideology = stalinism
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Andranik Ozanian "
+	desc = ""
+	picture = "andranik.dds"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Ruben Darbinyan"
+	desc = ""
+	picture = "ruben_darbinyan.dds"
+	expire = "1965.1.1"
+	ideology = centrism
+	traits = {
+
+	}
+}
+
+hovhannes_bagramyan lvl 3  (marshal)
+christofer_araratyan lvl 2
+hamazasp_babadzhanian lvl 1 
+hovhannes_hakhverdyan lvl 1
+drastamat_kanayan  lvl 2
+
+create_field_marshal = {
+	name = "Hovhannes Bagramyan"
+	picture = "hovhannes_bagramyan.dds"
+	traits = { armor_officer old_guard brilliant_strategist }
+	skill = 3
+	attack_skill = 3
+    defense_skill = 1
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Christofer Araratyan"
+	picture = "christofer_araratyan.dds"
+	traits = { armor_officer }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "hamazasp Babadzhanian"
+	picture = "hamazasp_babadzhanian.dds"
+	traits = { cavalry_officer }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Hovhannes Hakhverdyan"
+	picture = "hovhannes_hakhverdyan.dds"
+	traits = { trickster }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Drastamat Kanayan"
+	picture = "drastamat_kanayan.dds"
+	traits = { trickster armor_officer }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
