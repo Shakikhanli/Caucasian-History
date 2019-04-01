@@ -36,11 +36,6 @@ set_politics = {
 
 set_convoys = 5
 
-leo_kereselidze      facist
-nikolay_chkhekizade  socialist
-nikolay_tcheidze
-kote_andronikashvili  democratic
-
 
 
 create_country_leader = {
@@ -87,7 +82,7 @@ create_country_leader = {
 
 create_field_marshal = {
 	name = "Giorgi Mazniashvili"
-	picture = "giorgi_mazniashvili"
+	picture = "giorgi_mazniashvili.dds"
 	traits = { war_hero old_guard }
 	skill = 3
 	attack_skill = 3
