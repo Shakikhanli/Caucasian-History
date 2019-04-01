@@ -4,7 +4,7 @@ ideas = {
 
 		mehemmedhesen_hacinski = {
 
-			picture = generic_political_advisor_arab_1
+			picture = idea_generic_political_advisor_europe_1
 			
 			allowed = {
 				original_tag = AZR
@@ -21,12 +21,12 @@ ideas = {
 				original_tag = AZR
 			}
 			
-			traits = { prince_of_terror }
+			traits = { fascist_demagogue }
 		}
 
 		aslan_bey_sefikurdski = {
 
-			picture = generic_political_advisor_arab_3
+			picture = aslan_bey_sefikurdiski   
 			
 			allowed = {
 				original_tag = AZR
@@ -41,9 +41,9 @@ ideas = {
 
 	theorist = {
 
-		qemal_komani = {
+		cavad_bey_shixlinski = {
 					
-			picture = generic_army_arab_1
+			picture = idea_generic_army_europe_1
 
 			allowed = {
 				original_tag = AZR
@@ -56,9 +56,9 @@ ideas = {
 			traits = { military_theorist }
 		}
 
-		xhelal_mitrovica = {
+		huseynbala_eliyev = {
 					
-			picture = generic_air_arab_1
+			picture = idea_generic_air_europa_1
 				
 			allowed = {
 				original_tag = AZR
@@ -70,29 +70,13 @@ ideas = {
 			
 			traits = { air_warfare_theorist }
 		}
-
-		hajre_fetahu = {
-					
-					
-			allowed = {
-				original_tag = AZR
-			}
-			
-			picture = generic_political_advisor_arab_1
-			
-			research_bonus = {
-				naval_doctrine = 0.07
-			}
-			
-			traits = { naval_theorist }
-		}
 	}
 
 	high_command = {
 
-		selim_moishiou = {
+		eliaga_shixlinski = {
 
-			picture = generic_army_arab_1
+			picture = eliaga_shixlinski   
 			
 			allowed = {
 				original_tag = AZR
@@ -105,9 +89,9 @@ ideas = {
 			}
 		}
 
-		alexander_mori = {
+		firudun_bey_novruzov = {
 
-			picture = generic_army_arab_2
+			picture = firudun_bey_novruzov 
 			
 			allowed = {
 				original_tag = AZR
@@ -120,42 +104,28 @@ ideas = {
 			}
 		}
 
-		kristo_cajupi = {
+		semed_bey_mehmandarov = {
 
-			picture = generic_army_arab_3
+			picture = semed_bey_mehmandarov 
 			
 			allowed = {
 				original_tag = AZR
 			}
 			
-			traits = { army_concealment_2 }
+			traits = { army_concealment_2 army_artillery_2 }
 			
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
-		halil_nergutti = {
-
-			picture = generic_navy_arab_1
-			
-			allowed = {
-				original_tag = AZR
-			}
-			
-			traits = { navy_capital_ship_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
 	}
 	# MILITARY
 	army_chief = {
 
-		kol_bibe_mirakaj = {
+		ibrahim_aga_usubov = {
 			
-			picture = generic_army_arab_2
+			picture = ibrahim_aga_usubov
 			
 			allowed = {
 				original_tag = AZR
@@ -169,36 +139,17 @@ ideas = {
 				factor = 1
 			}
 		}
+	}		
 		
-		prenk_pervizi = {
-			
-			picture = generic_army_arab_1
-			
-			allowed = {
-				original_tag = AZR
-			}
-			
-
-			
-			traits = { army_chief_morale_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-	}
-
 	air_chief = {
 
-		eqrem_libohova = {
+		murad_bey_ehmedov = {
 			
-			picture = generic_air_arab_1
+			picture = idea_generic_air_europe_2
 			
 			allowed = {
 				original_tag = AZR
 			}
-			
-
 			
 			traits = { air_chief_ground_support_2 }
 			
@@ -207,32 +158,13 @@ ideas = {
 			}
 		}
 
-		zuhdi_shabani = {
+		ferhad_axundlu = {
 			
-			picture = generic_air_arab_3
-			
-			allowed = {
-				original_tag = AZR
-			}
-			
-
-			
-			traits = { air_chief_safety_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		aziz_sulejmani = {
-			
-			picture = generic_air_arab_2
+			picture = idea_generic_air_europe_3
 			
 			allowed = {
 				original_tag = AZR
 			}
-			
-
 			
 			traits = { air_chief_reform_2 }
 			
@@ -240,59 +172,67 @@ ideas = {
 				factor = 1
 			}
 		}
+
+		mirqasim_cavadzade = {
+			
+			picture = idea_generic_air_europe_4
+			
+			allowed = {
+				original_tag = AZR
+			}
+			
+			traits = { air_chief_all_weather_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
 	}
 
 	navy_chief = {
 
-		rexhep_mitrovica = {
+		hemid_qasimbeyov = {
 			
-			picture = generic_navy_arab_2
+			picture = hemid_qasimbeyov
 			
 			allowed = {
 				original_tag = AZR
-			}
-			
-
-			
-			traits = { navy_chief_naval_aviation_2 }
+			}			
+			traits = {  navy_chief_commerce_raiding_2 }
 			
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
-		hasan_begolli = {
+		celil_cavadov = {
 			
-			picture = generic_navy_arab_1
+			picture = idea_generic_navy_europe_1
 			
 			allowed = {
 				original_tag = AZR
-			}
-			
-
-			
-			traits = { navy_chief_commerce_raiding_2 }
+			}			
+			traits = {   }
 			
 			ai_will_do = {
 				factor = 1
 			}
 		}
 
-		AZR_ismael_ghaxa = {
+		abasqulu_mir_agayev = {
 			
-			picture = generic_navy_arab_3
+			picture = idea_generic_navy_europe_2
 			
 			allowed = {
 				original_tag = AZR
-			}
-			
-
-			
-			traits = { navy_chief_maneuver_2 }
+			}			
+			traits = { navy_fleet_logistics_2 }
 			
 			ai_will_do = {
 				factor = 1
 			}
 		}
 	}
+	
 }

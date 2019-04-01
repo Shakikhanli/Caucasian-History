@@ -3636,6 +3636,82 @@ spriteTypes = {
     spriteType = {
 		name = "GFX_idea_khudat_bey_refibeyli"
 		texturefile = "gfx/interface/ideas/khudat_bey_refibeyli.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_aslan_bey_sefikurdiski"
+		texturefile = "gfx/interface/ideas/aslan_bey_sefikurdiski.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_mehemmedhesen_hacinski"
+		texturefile = "gfx/interface/ideas/idea_generic_political_advisor_europe_1.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_cavad_bey_shixlinski"
+		texturefile = "gfx/interface/ideas/idea_generic_army_europe_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_huseynbala_eliyev"
+		texturefile = "gfx/interface/ideas/idea_generic_air_europe_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_eliaga_shixlinski"
+		texturefile = "gfx/interface/ideas/eliaga_shixlinski.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_firudun_bey_novruzov"
+		texturefile = "gfx/interface/ideas/firudun_bey_novruzov.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_semed_bey_mehmandarov"
+		texturefile = "gfx/interface/ideas/semed_bey_mehmandarov.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ibrahim_aga_usubov"
+		texturefile = "gfx/interface/ideas/ibrahim_aga_usubov.dds"
 	}	
-	
+	spriteType = {
+		name = "GFX_idea_murad_bey_ehmedov"
+		texturefile = "gfx/interface/ideas/idea_generic_air_europe_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_hemid_qasimbeyov"
+		texturefile = "gfx/interface/ideas/hemid_qasimbeyov.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ferhad_axundlu"
+		texturefile = "gfx/interface/ideas/idea_generic_air_europe_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mirqasim_cavadzade"
+		texturefile = "gfx/interface/ideas/idea_generic_air_europe_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_celil_cavadov"
+		texturefile = "gfx/interface/ideas/idea_generic_navy_europe_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_abasqulu_mir_agayev"
+		texturefile = "gfx/interface/ideas/idea_generic_navy_europe_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ferhad_axundlu"
+		texturefile = "gfx/interface/ideas/idea_generic_air_europe_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ferhad_axundlu"
+		texturefile = "gfx/interface/ideas/idea_generic_air_europe_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ferhad_axundlu"
+		texturefile = "gfx/interface/ideas/idea_generic_air_europe_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ferhad_axundlu"
+		texturefile = "gfx/interface/ideas/idea_generic_air_europe_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ferhad_axundlu"
+		texturefile = "gfx/interface/ideas/idea_generic_air_europe_3.dds"
+	}
 }
