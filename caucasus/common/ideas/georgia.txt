@@ -1,0 +1,37 @@
+ideas = {
+
+	political_advisor = {
+
+		kote_androkashvili  = {
+
+			picture = idea_generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = GEO
+			}
+				
+			traits = { democratic_reformer }
+		}
+
+		leo_kereselidze = {
+
+			picture = idea_generic_political_advisor_europe_2
+				
+			allowed = {
+				original_tag = GEO
+			}
+			
+			traits = { fascist_demagogue }
+		}
+
+		nikolay_chkheidze= {
+
+			picture = idea_generic_political_advisor_europe_3   
+			
+			allowed = {
+				original_tag = GEO
+			}
+			
+			traits = { communist_revolutionary }
+		}
+	}

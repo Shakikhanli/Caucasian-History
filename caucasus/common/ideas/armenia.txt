@@ -1,0 +1,37 @@
+ideas = {
+
+	political_advisor = {
+
+		michael_papadjanian  = {
+
+			picture = idea_generic_political_advisor_europe_1
+			
+			allowed = {
+				original_tag = ARM
+			}
+				
+			traits = { democratic_reformer }
+		}
+
+		aram_manukian = {
+
+			picture = idea_generic_political_advisor_europe_2
+				
+			allowed = {
+				original_tag = ARM
+			}
+			
+			traits = { fascist_demagogue }
+		}
+
+		hamo_ohanjanyan  = {
+
+			picture = idea_generic_political_advisor_europe_3   
+			
+			allowed = {
+				original_tag = ARM
+			}
+			
+			traits = { communist_revolutionary }
+		}
+	}

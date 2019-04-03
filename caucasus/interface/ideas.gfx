@@ -3632,6 +3632,11 @@ spriteTypes = {
 	}
 
 #####################################################
+###################            ######################
+#####################################################
+
+
+#### AZERBAIJAN
 
     spriteType = {
 		name = "GFX_idea_khudat_bey_refibeyli"
@@ -3714,4 +3719,36 @@ spriteTypes = {
 		name = "GFX_idea_ferhad_axundlu"
 		texturefile = "gfx/interface/ideas/idea_generic_air_europe_3.dds"
 	}
+
+###### ARMENIA
+    
+    spriteType = {
+		name = "GFX_idea_michael_papadjanian"
+		texturefile = "gfx/interface/ideas/idea_generic_political_advisor_europe_1.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_aram_manukian"
+		texturefile = "gfx/interface/ideas/idea_generic_political_advisor_europe_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_hamo_ohanjanyan"
+		texturefile = "gfx/interface/ideas/idea_generic_political_advisor_europe_3.dds"
+	}
+
+
+###### GEORGIA	
+
+   spriteType = {
+		name = "GFX_idea_kote_androkashvili"
+		texturefile = "gfx/interface/ideas/idea_generic_political_advisor_europe_1.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_leo_kereselidze"
+		texturefile = "gfx/interface/ideas/idea_generic_political_advisor_europe_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nikolay_chkheidze"
+		texturefile = "gfx/interface/ideas/idea_generic_political_advisor_europe_3.dds"
+	}
+
 }
