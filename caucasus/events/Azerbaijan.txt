@@ -1,0 +1,27 @@
+add_namespace = azerbaijan
+
+
+country_event = {
+	id = azerbaijan.1
+	title = azerbaijan.1.t
+	desc = azerbaijan.1.d
+	picture = GFX_report_event_british_inspect_troops
+	
+	is_triggered_only = yes
+
+	trigger = {
+	  tag = AZR
+	}
+
+	mean_time_to_happen = (days = 1)
+	
+	option = { 
+		name = Okay
+		ai_chance = { factor = 100 }
+		create_wargoal = {
+		 target = ARM
+		 type = annex_everything
+		}
+
+	}
+}
